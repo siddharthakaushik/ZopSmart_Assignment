@@ -60,7 +60,7 @@ To add unit tests to your Go code, you can use the built-in testing package (`te
    This will execute all test functions and report any failures.
 
 
-By following these steps, you can gradually build up a suite of unit tests to ensure the correctness of your code. The key is to cover various scenarios and edge cases to catch potential issues.
+By following these steps, we can gradually build up a suite of unit tests to ensure the correctness of your code. The key is to cover various scenarios and edge cases to catch potential issues.
 Expected Results:
 
 The server starts and initializes the SQLite database.

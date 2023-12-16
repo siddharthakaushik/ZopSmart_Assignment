@@ -1,7 +1,7 @@
 # ZopSmart_Assignment-Real time car tracking system
 Code Functionality
 
-Certainly! Let's go through the functionality of the provided code:
+Let's go through the functionality of the provided code:
 
 1. **Database Initialization:**
    - The `initDB` function initializes a SQLite database using the `gorm` package.

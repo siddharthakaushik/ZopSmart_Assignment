@@ -39,11 +39,28 @@ Let's go through the functionality of the provided code:
    - Broadcasts the list of cars to all connected WebSocket clients.
    - The broadcast occurs every 5 seconds (configurable).
 
-**Instructions for Running and Testing:**
+6. **Instructions for Running and Testing:**
 - Run the server using `go run main.go`.
 - Use API endpoints (e.g., cURL commands) to create, retrieve, update, and delete cars.
 - Connect to the WebSocket endpoint (`ws://localhost:8080/ws`) for real-time updates on car data.
+To add unit tests to your Go code, you can use the built-in testing package (`testing`) along with additional testing utilities, such as `github.com/stretchr/testify` for assertions. Below are the steps to add unit tests to your existing code:
+**Run Tests:**
+   - Run your tests using the `go test` command. Make sure you are in the directory containing your test file.
 
+   ```bash
+   go test
+   ```
+
+   - If you want to see verbose output, use the `-v` flag:
+
+   ```bash
+   go test -v
+   ```
+
+   This will execute all test functions and report any failures.
+
+
+By following these steps, you can gradually build up a suite of unit tests to ensure the correctness of your code. The key is to cover various scenarios and edge cases to catch potential issues.
 Expected Results:
 
 The server starts and initializes the SQLite database.
